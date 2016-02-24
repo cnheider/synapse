@@ -46,5 +46,4 @@ src/plugins/*.vapi
 src/ui/tile-view/*.vapi
 data/synapse.desktop
 build-aux
-m4
 src/core/SynapseCore-1.0.gir
