@@ -53,6 +53,7 @@ libplugins_la_VALASOURCES = \
 	xnoise-media-player-plugin.vala \
 	system-management.vala \
 	zeal-plugin.vala \
+        #clementine-plugin.vala\
 	spotify-plugin.vala \
 	$(NULL)
 

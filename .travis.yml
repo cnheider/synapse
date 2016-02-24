@@ -18,11 +18,3 @@ before_install:
   - sudo apt-get update -qq
   - eval $(sed -n '/^On Debian based systems install/{n;n;p}' README.md) valadoc
 script: make
-#notifications:
-#  irc:
-#    channels:
-#      - "irc.freenode.org#valama"
-#    on_success: change
-#    on_failure: always
-#    use_notice: true
-#    skip_join: true

@@ -43,8 +43,7 @@
 /* Have Zeitgeist */
 #define HAVE_ZEITGEIST 1
 
-/* Define to the sub-directory in which libtool stores uninstalled libraries.
-   */
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
 #define LT_OBJDIR ".libs/"
 
 /* Name of package */
