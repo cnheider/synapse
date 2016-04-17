@@ -4,6 +4,7 @@
   git clone https://github.com/cnHeider/synapse
   cd synapse
   ./autoconf
+  ./configure 
   make
   sudo make install
 ```
