@@ -167,7 +167,7 @@ namespace Synapse
       var bookmarks = new Gee.ArrayList<BookmarkMatch> ();
       var parser = new Json.Parser ();
       string fpath = GLib.Path.build_filename (
-        Environment.get_user_config_dir (), "chromium", "Default", "Bookmarks");
+        Environment.get_user_config_dir (), "google-chrome", "Default", "Bookmarks");
 
       string CONTAINER = "folder";
       Gee.HashSet<string> UNWANTED_SCHEME = new Gee.HashSet<string> ();
